@@ -237,7 +237,7 @@ gendeR:
         printf("\nWrite again carefully.");
         goto gendeR;
     }
-    printf("\nEnter your citizenship:");
+    printf("\nEnter your Country:");
     scanf("%s", &add.citizenship);
     printf("\nEnter your Phone no.:+91 ");
     scanf("%lld", &add.phone);
